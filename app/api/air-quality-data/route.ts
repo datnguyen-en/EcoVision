@@ -31,7 +31,7 @@ export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url);
     const lat = searchParams.get('lat');
-    const lng = searchParams.get('lng');
+    const lng = searchParams.get('lng');   
     
     // If coordinates are provided, get real-time data
     if (lat && lng) {

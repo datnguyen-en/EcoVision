@@ -176,9 +176,9 @@ export default function LandingPage({ onEnter }: LandingPageProps) {
             transition={{ duration: 1, delay: 0.2 }}
             className="text-6xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent"
           >
-            Air Quality
+            Sustainability 
             <span className="block bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent">
-              Prediction
+              Tracker
             </span>
           </motion.h1>
 

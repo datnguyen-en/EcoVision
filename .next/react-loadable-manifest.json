@@ -1,10 +1,9 @@
 {
   "app\\components\\Map.tsx -> ./MapComponent": {
-    "id": 8101,
+    "id": "app\\components\\Map.tsx -> ./MapComponent",
     "files": [
-      "static/css/fc1c9daac70c093b.css",
-      "static/chunks/d0deef33.bd75b11a952a2d3d.js",
-      "static/chunks/101.201842820eb7a994.js"
+      "static/css/_app-pages-browser_app_components_MapComponent_tsx.css",
+      "static/chunks/_app-pages-browser_app_components_MapComponent_tsx.js"
     ]
   }
 }
