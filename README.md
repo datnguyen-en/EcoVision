@@ -1,4 +1,4 @@
-# 🌬️ Sustainability Tracker
+# 🌬️ EcoVision
 
 A modern, real-time air quality prediction system with machine learning models and a beautiful dark/light mode interface.
 
