@@ -49,9 +49,12 @@ export default function MapComponent({ data }: MapComponentProps) {
     )
   }
 
-  // Calculate center from data
+  // Calculate center from data (average of all coordinates)
   const center = data.length > 0 
-    ? [data[0].lat, data[0].lng] as [number, number]
+    ? [
+        data.reduce((sum, item) => sum + item.lat, 0) / data.length,
+        data.reduce((sum, item) => sum + item.lng, 0) / data.length
+      ] as [number, number]
     : [40.7128, -74.0060] as [number, number]
 
   return (
